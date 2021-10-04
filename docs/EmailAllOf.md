@@ -1,0 +1,119 @@
+# EmailAllOf
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Recipients** | **[]string** | A list of email addresses to send to when the rule fires. | 
+**Subject** | **string** | The subject line of the email. | 
+**MessageBody** | Pointer to **string** | The message body of the email to send. | [optional] 
+**TimeZone** | **string** | Time zone for the email content. All dates/times will be displayed in this timeZone in the email payload. Follow the format in the [IANA Time Zone Database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). | 
+
+## Methods
+
+### NewEmailAllOf
+
+`func NewEmailAllOf(recipients []string, subject string, timeZone string, ) *EmailAllOf`
+
+NewEmailAllOf instantiates a new EmailAllOf object
+This constructor will assign default values to properties that have it defined,
+and makes sure properties required by API are set, but the set of arguments
+will change when the set of required properties is changed
+
+### NewEmailAllOfWithDefaults
+
+`func NewEmailAllOfWithDefaults() *EmailAllOf`
+
+NewEmailAllOfWithDefaults instantiates a new EmailAllOf object
+This constructor will only assign default values to properties that have it defined,
+but it doesn't guarantee that properties required by API are set
+
+### GetRecipients
+
+`func (o *EmailAllOf) GetRecipients() []string`
+
+GetRecipients returns the Recipients field if non-nil, zero value otherwise.
+
+### GetRecipientsOk
+
+`func (o *EmailAllOf) GetRecipientsOk() (*[]string, bool)`
+
+GetRecipientsOk returns a tuple with the Recipients field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetRecipients
+
+`func (o *EmailAllOf) SetRecipients(v []string)`
+
+SetRecipients sets Recipients field to given value.
+
+
+### GetSubject
+
+`func (o *EmailAllOf) GetSubject() string`
+
+GetSubject returns the Subject field if non-nil, zero value otherwise.
+
+### GetSubjectOk
+
+`func (o *EmailAllOf) GetSubjectOk() (*string, bool)`
+
+GetSubjectOk returns a tuple with the Subject field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetSubject
+
+`func (o *EmailAllOf) SetSubject(v string)`
+
+SetSubject sets Subject field to given value.
+
+
+### GetMessageBody
+
+`func (o *EmailAllOf) GetMessageBody() string`
+
+GetMessageBody returns the MessageBody field if non-nil, zero value otherwise.
+
+### GetMessageBodyOk
+
+`func (o *EmailAllOf) GetMessageBodyOk() (*string, bool)`
+
+GetMessageBodyOk returns a tuple with the MessageBody field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetMessageBody
+
+`func (o *EmailAllOf) SetMessageBody(v string)`
+
+SetMessageBody sets MessageBody field to given value.
+
+### HasMessageBody
+
+`func (o *EmailAllOf) HasMessageBody() bool`
+
+HasMessageBody returns a boolean if a field has been set.
+
+### GetTimeZone
+
+`func (o *EmailAllOf) GetTimeZone() string`
+
+GetTimeZone returns the TimeZone field if non-nil, zero value otherwise.
+
+### GetTimeZoneOk
+
+`func (o *EmailAllOf) GetTimeZoneOk() (*string, bool)`
+
+GetTimeZoneOk returns a tuple with the TimeZone field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetTimeZone
+
+`func (o *EmailAllOf) SetTimeZone(v string)`
+
+SetTimeZone sets TimeZone field to given value.
+
+
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
