@@ -12,6 +12,7 @@ package openapi
 
 import (
 	"encoding/json"
+	"time"
 )
 
 // WebhookConnection struct for WebhookConnection

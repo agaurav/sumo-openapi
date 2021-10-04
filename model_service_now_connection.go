@@ -12,6 +12,7 @@ package openapi
 
 import (
 	"encoding/json"
+	"time"
 )
 
 // ServiceNowConnection struct for ServiceNowConnection
